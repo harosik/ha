@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #fff;
+  }
+#menu-toggle {
+  font-size: 20px;
+  cursor: pointer;
+  color: #f4d200;
+  background-color: #1f1f1f;
+}
+
+.menu {
+  display: block;
+  flex-direction: column;
+  background-color: #333;
+  padding: 0px;
+  margin-top: 1px;
+  width: 1900px;
+}
+
+.menu a {
+  color: #f4d200;
+  padding: 8px 0;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #555;
+}
+  
+  header {
+    background-color: #1f1f1f;
+    padding: 15px 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #f4d200;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    color: #f4d200;
+  }
+  .player-card-horizontal {
+    display: flex;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  }
+  
+  .player-card-horizontal img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .player-info h3 {
+    color: #f4d200;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  
+  .player-info p {
+    font-size: 0.95em;
+  }
+  .player-card {
+    color: #f4d200;
+  }
+  .player-info {
+    color: #fff;
+  }
